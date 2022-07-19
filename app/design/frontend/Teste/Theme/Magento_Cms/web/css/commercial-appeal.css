@@ -1,0 +1,49 @@
+.commercial-appeal {
+    display: flex;
+    justify-content: space-between;
+}
+.commercial-appeal .col {
+    flex: 1;
+    display: flex;
+}
+.commercial-appeal .col .icon {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.commercial-appeal .col .icon i {
+    font-size: 30px;
+    color: orange;
+}
+.commercial-appeal .col .alt {
+    position: relative;
+}
+.commercial-appeal .col .fa-circle {
+    position: absolute;
+}
+.commercial-appeal .col .fa-dollar-sign {
+    font-size: 20px !important;
+}
+.commercial-appeal .col .icon .card-a {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    transform: rotate(45deg);
+}
+.commercial-appeal .col .icon .card-b {
+    transform: rotate(45deg);
+}
+
+.commercial-appeal .col .description {
+    flex: 3;
+}
+.commercial-appeal .col .description .title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.commercial-appeal .col .description .sub-title {
+    font-size: 14px;
+    color: #6189ac;
+}

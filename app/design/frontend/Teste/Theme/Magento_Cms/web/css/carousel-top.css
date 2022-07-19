@@ -1,0 +1,23 @@
+.carousel-top .slick-prev {
+    margin-left: 3%;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    border: unset;
+    box-shadow: unset;
+}
+.carousel-top .slick-prev::before {
+    font-size: 40px;
+}
+
+.carousel-top .slick-next {
+    margin-right: 3%;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    border: unset;
+    box-shadow: unset;
+}
+.carousel-top .slick-next::before {
+    font-size: 40px;
+}

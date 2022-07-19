@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <link defer="" src="Magento_Cms::css/carousel-top.css" />
+        <link defer="" src="Magento_Cms::css/commercial-appeal.css" />
+    </head>
+    <body>
+        <referenceContainer name="before.body.end">
+            <block class="Magento\Framework\View\Element\Template" name="beforebodyend.css.file" template="Magento_Theme::html/before_body_end_css.phtml" />
+        </referenceContainer>
+    </body>
+</page>
