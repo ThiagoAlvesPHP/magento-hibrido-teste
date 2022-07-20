@@ -17,13 +17,15 @@
         'jquery',
         'slick'
     ], function($) {
-        $('.carousel-top').slick({
-            dots: false,
-            infinite: true,
-            slidesToShow: 1,
-            arrows: true,
-            autoplay: true,
-            autoplaySpeed: 2000,
+        $(function() {
+            $('.carousel-top').not('.slick-initialized').slick({
+                dots: false,
+                infinite: true,
+                slidesToShow: 1,
+                arrows: true,
+                autoplay: true,
+                autoplaySpeed: 2000,
+            });
         });
     });
 </script>
