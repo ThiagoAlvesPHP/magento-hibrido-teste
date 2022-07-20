@@ -1,0 +1,12 @@
+.grid-banners {
+    background-color: #eaeaea;
+    display: flex;
+    flex-direction: column;
+}
+.grid-banners .images {
+    display: flex;
+}
+.grid-banners .images img {
+    flex: 1;
+    margin: 5px;
+}

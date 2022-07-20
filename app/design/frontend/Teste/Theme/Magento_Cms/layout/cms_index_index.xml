@@ -9,6 +9,7 @@
     <head>
         <link defer="" src="Magento_Cms::css/carousel-top.css" />
         <link defer="" src="Magento_Cms::css/commercial-appeal.css" />
+        <link defer="" src="Magento_Cms::css/grid-banners.css" />
         <link defer="" src="Magento_Catalog::css/new_list.css" />
     </head>
     <body>
