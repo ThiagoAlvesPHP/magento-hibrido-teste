@@ -25,3 +25,4 @@
 !app/etc/config.php
 !nginx.conf
 .DS_Store
+!magenteiro.sql
